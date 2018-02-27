@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Which Movie Should You See?</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-7" .col-sm-7>
+          <form id="main-form">
+            <input id="name-input" placeholder="Please input your name" type="text">
+          </form>
+          <br>
+
+          <p>What is your age?</p>
+          <select class="form-control" id="age">
+        <option value="kids">0-13</option>
+        <option value="teens">14-17</option>
+        <option value="adult">18-65</option>
+        <option value="senior">65+</option>
+      </select>
+          <br>
+          <p>Please select your movie</p>
+          <div class="radio">
+            <label>
+          <input type="radio" name="movie" class="movie-class" value="ferdi" checked>
+          Ferdi, rated PG
+        </label>
+          </div>
+          <div class="radio">
+            <label>
+          <input type="radio" name="movie" class="movie-class" value="black-panther">
+          Black Panther, rated PG-16
+        </label>
+          </div>
+          <div class="radio">
+            <label>
+          <input type="radio" name="movie" class="movie-class" value="sherlock-nomes">
+          Sherlock Nomes, rated PG
+        </label>
+          </div>
+          <br>
+          <p>What time are you planning to see the movie?</p>
+          <div class="radio">
+            <label>
+          <input type="radio" name="time" class="movie-time" value="11.00am" checked>
+          11.00am
+        </label>
+          </div>
+          <div class="radio">
+            <label>
+          <input type="radio" name="time" class="movie-time" value="2.00pm">
+          2.00pm
+        </label>
+          </div>
+          <div class="radio">
+            <label>
+          <input type="radio" name="time" class="movie-time" value="4.00pm">
+          4.00pm
+        </label>
+          </div>
+          <div class="radio">
+            <label>
+          <input type="radio" name="time" class="movie-time" value="7.00pm">
+          7.00pm
+        </label>
+          </div>
+          </form>
+
+          <button type="submit" class="btn btn-primary">Movie Time!</button>
+        </div>
+
+        <div class="col-sm-5" .col-sm-5>
+          <img src="images/ferdi.jpg" style="height:280px;">
+          <img src="images/panther.jpg">
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>
