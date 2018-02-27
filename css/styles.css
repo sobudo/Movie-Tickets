@@ -3,3 +3,9 @@
   text-align: center;
   color: orange;
 }
+
+.images {
+  border-color: orange;
+  border-style: outset;
+  border-width: thick;
+}
